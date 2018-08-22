@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./../styles/welcome.css";
 
 class Welcome extends Component {
   state = {};
@@ -6,7 +7,7 @@ class Welcome extends Component {
     return (
       <div>
         <h1>Hello and welcome, my name is Roberto!</h1>
-        <section>
+        <section className="pics">
           <a href="https://github.com/RobertoBlanco84">
             {" "}
             <img src="/pics/githubS.png" alt="Github Logo" />
