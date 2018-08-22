@@ -1,21 +1,24 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./styles/App.css";
+import NavBar from "./components/NavBar";
+import Welcome from "./components/Welcome";
+import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Hey, my name is Roberto!</h1>
+          <NavBar />
         </header>
         <section>
-          <p>Just for commiting to git hub</p>
-          <button className="btn btn-danger">TEST</button>
+          <Welcome />
+        </section>
+        <section>
+          <AboutMe />
         </section>
       </div>
     );
   }
 }
-
 export default App;
