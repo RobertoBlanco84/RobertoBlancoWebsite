@@ -5,8 +5,11 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand" href="#aboutMeId">
+          <p> About Me</p>
+        </a>
         <a className="navbar-brand" href="#">
-          Navbar
+          <p> Portfolio</p>
         </a>
       </nav>
     );
