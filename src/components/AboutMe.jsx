@@ -12,7 +12,9 @@ class AboutMe extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h4 id="aboutMeId">About me</h4>
+              <h4 className="componentHeader" id="aboutMeId">
+                About me
+              </h4>
               <p>
                 I am Systemdeveloper(Java) from Stockholm that likes front end
                 development, preferably in ReactJS. When Im not developing Im

@@ -4,24 +4,35 @@ class Portfolio extends Component {
   state = {};
   render() {
     return (
-      <article className="topOfComponent">
+      <section className="topOfComponent">
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h4 id="aboutMeId">Portfolio</h4>
-              <p>
-                I am System developer(Java) from Stockholm that likes and leans
-                more towards front end development, preferably in ReactJS. When
-                Im not developing Im usually skateboarding or punching/get
-                punched by people in the face(boxing). This website is intended
-                for giving you a picture of who I am and my skill set. If you
-                feel the urge to contact me dont hesitate, just do it! Give me a
-                ring or send me an email.
-              </p>
+              <h4 className="componentHeader" id="portfolioId">
+                Portfolio
+              </h4>
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <img src="/pics/githubS.png" />
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <img src="/pics/githubS.png" />
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <img src="/pics/linkedInS.jpeg" />
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <img src="/pics/githubS.png" />
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <img src="/pics/githubS.png" />
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <img src="/pics/linkedInS.jpeg" />
             </div>
           </div>
         </div>
-      </article>
+      </section>
     );
   }
 }

@@ -3,6 +3,7 @@ import "./styles/App.css";
 import NavBar from "./components/NavBar";
 import Welcome from "./components/Welcome";
 import AboutMe from "./components/AboutMe";
+import Portfolio from "./components/Portfolio";
 
 class App extends Component {
   render() {
@@ -16,6 +17,9 @@ class App extends Component {
         </section>
         <section>
           <AboutMe />
+        </section>
+        <section>
+          <Portfolio />
         </section>
       </div>
     );
