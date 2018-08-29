@@ -1,0 +1,12 @@
+.topOfComponent {
+  margin-top: 500px;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .topOfComponent {
+    margin-top: 50px;
+    background-color: red;
+  }
+}
