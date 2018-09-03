@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+import "./../styles/Component.css";
+import "./../styles/Portfolio.css";
+
 class Portfolio extends Component {
   state = {};
   render() {
@@ -12,23 +15,23 @@ class Portfolio extends Component {
                 Portfolio
               </h4>
             </div>
-            <div className="col-sm-12 col-md-4">
-              <img src="/pics/githubS.png" />
+            <div className="col-6 col-md-4">
+              <img className="portfolioLink" src="/pics/githubS.png" />
             </div>
-            <div className="col-sm-12 col-md-4">
-              <img src="/pics/githubS.png" />
+            <div className="col-6 col-md-4">
+              <img className="portfolioLink" src="/pics/githubS.png" />
             </div>
-            <div className="col-sm-12 col-md-4">
-              <img src="/pics/linkedInS.jpeg" />
+            <div className="col-6 col-md-4">
+              <img className="portfolioLink" src="/pics/linkedInS.jpeg" />
             </div>
-            <div className="col-sm-12 col-md-4">
-              <img src="/pics/githubS.png" />
+            <div className="col-6 col-md-4">
+              <img className="portfolioLink" src="/pics/githubS.png" />
             </div>
-            <div className="col-sm-12 col-md-4">
-              <img src="/pics/githubS.png" />
+            <div className="col-6 col-md-4">
+              <img className="portfolioLink" src="/pics/githubS.png" />
             </div>
-            <div className="col-sm-12 col-md-4">
-              <img src="/pics/linkedInS.jpeg" />
+            <div className="col-6 col-md-4">
+              <img className="portfolioLink" src="/pics/linkedInS.jpeg" />
             </div>
           </div>
         </div>
