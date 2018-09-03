@@ -4,23 +4,30 @@ import NavBar from "./components/NavBar";
 import Welcome from "./components/Welcome";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
+import ReallySmoothScroll from "really-smooth-scroll";
+
+ReallySmoothScroll.shim();
 
 class App extends Component {
+  componentDidMount() {
+    window.scrollTo(1, 1);
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           <NavBar />
-        </header>
-        <section>
+        </div>
+        <div>
           <Welcome />
-        </section>
-        <section>
+        </div>
+        <div>
           <AboutMe />
-        </section>
-        <section>
+        </div>
+        <div>
           <Portfolio />
-        </section>
+        </div>
       </div>
     );
   }
